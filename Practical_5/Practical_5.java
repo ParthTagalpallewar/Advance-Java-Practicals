@@ -25,6 +25,8 @@ public class Practical_5 extends JFrame {
         p.add(b);
  
         f.add(p);
+
+        f.setLayout(new GridBagLayout());
  
         f.setSize(500, 500);
         f.setVisible(true);
@@ -34,18 +36,5 @@ public class Practical_5 extends JFrame {
         fill();
     }
  
-    public static void fill()
-    {
-        int i = 0;
-        try {
-            while (i <= 100) {
-                b.setValue(i + 10);
- 
-                Thread.sleep(1000);
-                i += 20;
-            }
-        }
-        catch (Exception e) {
-        }
-    }
+   
 }
