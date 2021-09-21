@@ -5,38 +5,24 @@ import javax.swing.*;
 
 
 @SuppressWarnings("unchecked")
-public class Prac_applet_2 extends JApplet {
+public class Pract_applet_2 extends JApplet {
 
     public void init() {
-        add(new B()); 
-    }
+        setLayout(null);
 
-}
-@SuppressWarnings("unchecked")
-class B extends JPanel {
-
-
-    B() {
-
-        setLayout(new FlowLayout());
-
-      
-       
-        //Config JFrame
         setVisible(true);
         setSize(400, 500);
 
-        //Adding JComboBox
+        JLabel jLabel = new JLabel("Select Subject");
+        jLabel.setBounds(20, 30, 100, 50);
+        add(jLabel);
+      
         String subjectArray[] = {"English", "Marathi", "Hindi", "Sanskrit"};
         JComboBox jComboBox = new JComboBox(subjectArray);
-        jComboBox.setBounds(50, 50, 90, 20);
+        jComboBox.setBounds(150, 40, 150, 30);
         jComboBox.setVisible(true);
+
         add(jComboBox);
-
-    
-      
-
     }
 
-   
 }

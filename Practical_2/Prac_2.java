@@ -3,25 +3,36 @@ import java.awt.FlowLayout;
 
 @SuppressWarnings("unchecked")
 public class Prac_2{
+
+   
+     
+
     public static void main(String[] args) {
 
-        JFrame frame = new JFrame("Practical No 2");
+        JFrame frame = new JFrame();
+        
        
         //Config JFrame
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setVisible(true);
         frame.setSize(400, 500);
-        frame.getContentPane().setLayout(new FlowLayout());
+        frame.setLayout(new FlowLayout());
+
+       
+
+        //jLabel
+        JLabel jLabel = new JLabel("Select Subject");
+        jLabel.setBounds(20, 30, 100, 50);
+        frame.add(jLabel); //adding jLabel
 
         //Adding JComboBox
         String subjectArray[] = {"English", "Marathi", "Hindi", "Sanskrit"};
-        JComboBox jComboBox = new JComboBox(subjectArray);
-        jComboBox.setBounds(50, 50, 90, 20);
-        jComboBox.setVisible(true);
+        JComboBox<String> jComboBox = new JComboBox<String>(subjectArray);
+        jComboBox.setBounds(150, 40, 150, 30);
         frame.getContentPane().add(jComboBox);
+        jComboBox.setVisible(true); //adding JCombo box
 
       
         
-
+        frame.setVisible(true);
     }
 }
