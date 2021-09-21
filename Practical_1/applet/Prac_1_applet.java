@@ -1,13 +1,12 @@
+import java.applet.*;  
+import javax.swing.*;  
+import java.awt.event.*;  
 
-import javax.swing.*;
+public class Prac_1_applet extends JApplet{  
+     
+    
+    public void init(){  
 
-public class prac_1 {
-    public static void main(String[] args) {
-
-
-
-        // Creating JFrame Object
-        JFrame f = new JFrame("Password Field Example");
 
         ImageIcon imageIcon = new ImageIcon("img.png");
         JLabel imageLabel = new JLabel(imageIcon);
@@ -28,20 +27,17 @@ public class prac_1 {
         JButton b = new JButton("Login");
         b.setBounds(100, 200, 80, 30);
 
-       
+        add(imageLabel);
+        add(userName);
+        add(passwordField);
+        add(l1);
+        add(l2);
+        add(b);
+        
 
-        f.add(passwordField);
-        f.add(l1);
-        f.add(l2);
-        f.add(b);
-        f.add(userName);
-        f.add(imageLabel);
-
-        f.setSize(300, 300);
-        f.setLayout(null);
-        f.setVisible(true);
-
-        f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setSize(300, 300);
+        setLayout(null);
+     
       
-    }
-}
+    }  
+}  
