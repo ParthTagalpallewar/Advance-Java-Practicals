@@ -1,9 +1,7 @@
-// Aim :- Write a Program to demonstrate the 
-// status of key on Applet window such as  KeyPressed, KeyReleased, KeyUp, KeyDown.
-
 import java.awt.*;
 import java.applet.*;
 import java.awt.event.*;
+
 public class practical_6 extends Applet implements KeyListener
 {
     Font f1;
