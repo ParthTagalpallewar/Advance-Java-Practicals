@@ -1,3 +1,5 @@
+package Practical_1.applet;
+
 import java.applet.*;  
 import javax.swing.*;  
 import java.awt.event.*;  

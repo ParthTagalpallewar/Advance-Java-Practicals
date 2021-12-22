@@ -1,4 +1,6 @@
-import Bean.Employee; 
+package Practical_10;
+
+import Practical_10.Bean.Employee;
 
 public class Test{  
     public static void main(String args[]){  

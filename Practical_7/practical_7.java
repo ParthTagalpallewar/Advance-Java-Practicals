@@ -1,3 +1,5 @@
+package Practical_7;
+
 // Aim :- Write a Program to demonstrate the various Mouse events 
 //        using MouseListener  and MouseMotionListener Interface.
 

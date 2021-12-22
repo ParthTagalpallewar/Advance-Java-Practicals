@@ -1,3 +1,5 @@
+package Practical_12;
+
 //Aim - Aim: Write a Program to demonstrate the use of Bound and Constraints Property of Java Bean.
 
 import java.awt.Graphics;
@@ -30,7 +32,6 @@ public class Practical_12 implements Serializable{
                 " New value "+ event.getNewValue());
         });
 
-        VetoableChangeListener
 
         try {
             s.setMouthWidth(20);

@@ -1,7 +1,8 @@
+package Practical_2;
+
 import javax.swing.*;
 import java.awt.FlowLayout;  
 
-@SuppressWarnings("unchecked")
 public class Prac_2{
 
    

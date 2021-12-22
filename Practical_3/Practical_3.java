@@ -1,3 +1,5 @@
+package Practical_3;
+
 import javax.swing.*;  
 import javax.swing.tree.DefaultMutableTreeNode;  
 

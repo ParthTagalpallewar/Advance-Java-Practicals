@@ -1,3 +1,5 @@
+package Practical_8;
+
 import javax.swing.*;
 public class Practical8 {
     public static void main(String[] args) {

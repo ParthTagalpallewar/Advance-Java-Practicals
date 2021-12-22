@@ -1,3 +1,5 @@
+package Practical_1;
+
 
 import javax.swing.*;
 

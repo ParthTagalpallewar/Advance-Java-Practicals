@@ -1,3 +1,5 @@
+package Practical_4.applet;
+
 import java.awt.*;
 import java.applet.*;
 import java.awt.event.*;
@@ -5,7 +7,6 @@ import javax.swing.*;
 import javax.swing.tree.DefaultMutableTreeNode;  
 
 
-@SuppressWarnings("unchecked")
 public class Pract_applet_4 extends JApplet {
 
     public void init() {

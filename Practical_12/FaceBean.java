@@ -1,3 +1,5 @@
+package Practical_12;
+
 import java.beans.*;
 
 public class FaceBean implements java.io.Serializable {

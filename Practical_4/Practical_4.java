@@ -1,3 +1,5 @@
+package Practical_4;
+
 import javax.swing.*;    
 
 public class Practical_4 {    

@@ -1,5 +1,4 @@
-// Java Program to create a
-// simple progress bar
+// Java Program to create a simple progress bar
 import java.awt.*;
 import javax.swing.*;
 import java.awt.event.*;
@@ -33,7 +32,7 @@ public class Practical_5 extends JFrame {
         f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
  
-        fill();
+        //fill();
     }
  
    

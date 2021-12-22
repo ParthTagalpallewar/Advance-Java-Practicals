@@ -1,3 +1,5 @@
+package Practical_6;
+
 import java.awt.*;
 import java.applet.*;
 import java.awt.event.*;

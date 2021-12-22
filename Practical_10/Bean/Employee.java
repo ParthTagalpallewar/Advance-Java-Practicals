@@ -1,4 +1,4 @@
-package Bean;
+package Practical_10.Bean;
 import java.io.Serializable;
 
 

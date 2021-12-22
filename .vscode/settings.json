@@ -2,5 +2,9 @@
     "java.project.referencedLibraries": [
         "lib/**/*.jar",
         "c:\\Users\\parth\\OneDrive\\Desktop\\mysql-connector-java-8.0.27.jar"
+    ],
+    "java.project.sourcePaths": [
+        "Practical_5",
+        ""
     ]
 }
