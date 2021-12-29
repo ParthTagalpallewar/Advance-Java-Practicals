@@ -1,6 +1,0 @@
-jdk Bin - C:\Program Files\Java\jdk\bin
-
-webinf - C:\Program Files\Apache Software Foundation\Tomcat 9.0\webapps\ROOT\WEB-INF
-
-server.api-  C:\Program Files\Apache Software Foundation\Tomcat 9.0\lib
-
